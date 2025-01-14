@@ -1,0 +1,57 @@
+<div class="signup-page">
+  <!-- Registration Form -->
+  <div *ngIf="!otpSent" class="signup-container">
+    <p id="signup">Signup</p>
+    <form class="signup-form" #signupForm="ngForm" (ngSubmit)="signupUser()">
+
+      <!-- Email Field -->
+      <div class="input-row">
+        <div class="input-div">
+          <input type="email" id="email" [(ngModel)]="userRegister.email" #email="ngModel" name="email" required
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" placeholder="Email">
+          <span *ngIf="email.invalid && email.touched" class="error-message" style="color: red;">
+            <span *ngIf="email.errors?.['required']">Email is required.</span>
+            <span *ngIf="email.errors?.['pattern']">Email is invalid.</span>
+          </span>
+        </div>
+      </div>
+
+      <!-- Full Name Field -->
+      <div class="input-row">
+        <div class="input-div">
+          <input type="text" id="fullname" [(ngModel)]="userRegister.fullname" name="fullname" required minlength="2" maxlength="50" placeholder="Nhập họ và tên...">
+        </div>
+      </div>
+
+      <!-- Password Field -->
+      <div class="input-row">
+        <div class="input-div">
+          <input type="password" id="password" [(ngModel)]="userRegister.password" name="password" required minlength="6" placeholder="Nhập mật khẩu...">
+        </div>
+      </div>
+
+      <button [disabled]="signupForm.invalid" type="submit">Register</button>
+
+      <div id="login-link-div">
+        <p id="login-text">Already have an account?</p>
+        <a routerLink="/login" id="login-link">Login</a>
+      </div>
+    </form>
+  </div>
+
+  <!-- OTP Verification Form -->
+<div *ngIf="otpSent" id="otp-div">
+  <form class="otp-div" #otpForm="ngForm" (ngSubmit)="confirmCodeEmail()">
+    <p id="otp-heading">Mã xác thực đăng ký</p>
+
+    <!-- OTP Input -->
+    <input id="otp-input" type="text" [(ngModel)]="codeConfirm.code" name="code" required placeholder="Nhập mã xác nhận">
+
+    <div class="otp-buttons">
+      <button id="otp-btn" type="submit">Xác thực</button>
+      <button id="try-btn" (click)="toSignup()">Quay lại</button>
+    </div>
+  </form>
+</div>
+
+</div>

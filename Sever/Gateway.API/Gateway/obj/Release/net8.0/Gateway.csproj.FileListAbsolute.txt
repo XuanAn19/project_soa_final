@@ -1,0 +1,69 @@
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\bin\Release\net8.0\appsettings.Development.json
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\bin\Release\net8.0\appsettings.json
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\bin\Release\net8.0\Gateway.exe
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\bin\Release\net8.0\Gateway.deps.json
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\bin\Release\net8.0\Gateway.runtimeconfig.json
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\bin\Release\net8.0\Gateway.dll
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\bin\Release\net8.0\Gateway.pdb
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\bin\Release\net8.0\Microsoft.OpenApi.dll
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\bin\Release\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\bin\Release\net8.0\System.IO.Hashing.dll
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\bin\Release\net8.0\Yarp.ReverseProxy.dll
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\Gateway.csproj.AssemblyReference.cache
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\Gateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\Gateway.AssemblyInfoInputs.cache
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\Gateway.AssemblyInfo.cs
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\Gateway.csproj.CoreCompileInputs.cache
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\Gateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\Gateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\Gateway.sourcelink.json
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\staticwebassets.build.json
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\staticwebassets.development.json
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\staticwebassets\msbuild.Gateway.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\staticwebassets\msbuild.build.Gateway.props
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\staticwebassets\msbuild.buildMultiTargeting.Gateway.props
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\staticwebassets\msbuild.buildTransitive.Gateway.props
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\staticwebassets.pack.json
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\scopedcss\bundle\Gateway.styles.css
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\Gateway.csproj.Up2Date
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\Gateway.dll
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\refint\Gateway.dll
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\Gateway.pdb
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\Gateway.genruntimeconfig.cache
+C:\Users\Dell\OneDrive\Máy tính\Nguyen_Xuan_An_4_Nam\HK_1_N4\SOA_Full\SOA\Gateway.API\Gateway\obj\Release\net8.0\ref\Gateway.dll
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\bin\Release\net8.0\appsettings.Development.json
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\bin\Release\net8.0\appsettings.json
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\bin\Release\net8.0\Gateway.exe
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\bin\Release\net8.0\Gateway.deps.json
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\bin\Release\net8.0\Gateway.runtimeconfig.json
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\bin\Release\net8.0\Gateway.dll
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\bin\Release\net8.0\Gateway.pdb
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\bin\Release\net8.0\Microsoft.OpenApi.dll
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\bin\Release\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\bin\Release\net8.0\System.IO.Hashing.dll
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\bin\Release\net8.0\Yarp.ReverseProxy.dll
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\obj\Release\net8.0\Gateway.csproj.AssemblyReference.cache
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\obj\Release\net8.0\Gateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\obj\Release\net8.0\Gateway.AssemblyInfoInputs.cache
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\obj\Release\net8.0\Gateway.AssemblyInfo.cs
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\obj\Release\net8.0\Gateway.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\obj\Release\net8.0\Gateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\obj\Release\net8.0\Gateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\obj\Release\net8.0\staticwebassets.build.json
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\obj\Release\net8.0\staticwebassets.development.json
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\obj\Release\net8.0\staticwebassets\msbuild.Gateway.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\obj\Release\net8.0\staticwebassets\msbuild.build.Gateway.props
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\obj\Release\net8.0\staticwebassets\msbuild.buildMultiTargeting.Gateway.props
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\obj\Release\net8.0\staticwebassets\msbuild.buildTransitive.Gateway.props
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\obj\Release\net8.0\staticwebassets.pack.json
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\obj\Release\net8.0\scopedcss\bundle\Gateway.styles.css
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\obj\Release\net8.0\Gateway.csproj.Up2Date
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\obj\Release\net8.0\Gateway.dll
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\obj\Release\net8.0\refint\Gateway.dll
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\obj\Release\net8.0\Gateway.pdb
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\obj\Release\net8.0\Gateway.genruntimeconfig.cache
+C:\Users\Dell\Downloads\KienTrucHuongDichVu\Sever\Gateway.API\Gateway\obj\Release\net8.0\ref\Gateway.dll

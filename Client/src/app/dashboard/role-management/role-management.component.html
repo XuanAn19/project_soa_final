@@ -1,0 +1,46 @@
+<div class="role-management">
+  <h2>Quản lý quyền</h2>
+  <!-- Nút thêm quyền -->
+  <button class="add-role-button" (click)="openCreateRolePopup()">Thêm quyền</button>
+
+  <!-- Hiển thị danh sách quyền -->
+  <div *ngIf="isLoading" class="loading-container">
+    <div class="loading-spinner"></div>
+    <div class="loading-text">Đang tải...</div>
+  </div>
+
+  <table *ngIf="!isLoading && roles.length > 0" class="role-table">
+    <thead>
+      <tr>
+        <th>Tên</th>
+        <th>Mô tả</th>
+        <th>Hành động</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let role of roles">
+        <td>{{ role.roleName }}</td>
+        <td>{{ role.description }}</td>
+        <td>
+          <button (click)="startEditing(role)">Chỉnh sửa</button>
+          <button (click)="deleteRole(role.id)">Xóa</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Form Thêm / Chỉnh sửa quyền (Popup Modal) -->
+  <div class="popup" *ngIf="isPopupVisible">
+    <div class="popup-content">
+      <h3>{{ editingRoleId ? 'Chỉnh sửa quyền' : 'Thêm quyền' }}</h3>
+      <label for="roleName">Tên quyền:</label>
+      <input id="roleName" [(ngModel)]="editingRoleName" type="text" placeholder="Nhập tên quyền" />
+      <label for="roleDescription">Mô tả quyền:</label>
+      <input id="roleDescription" [(ngModel)]="editingRoleDescription" type="text" placeholder="Nhập mô tả quyền" />
+      <div class="popup-actions">
+        <button (click)="closeCreateRolePopup()">Hủy</button>
+        <button (click)="saveRole()">{{ editingRoleId ? 'Cập nhật' : 'Lưu' }}</button>
+      </div>
+    </div>
+  </div>
+</div>

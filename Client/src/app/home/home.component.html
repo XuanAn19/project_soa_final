@@ -1,0 +1,94 @@
+<div class="container">
+  <!-- Loading Spinner -->
+  <div *ngIf="loadingService.loading$ | async" class="loading-overlay">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Header Section -->
+  <header class="header">
+    <nav class="nav">
+      <a (click)="goToHome()" class="nav-link">Home</a>
+
+      <!-- Chỉ hiển thị nút đăng nhập nếu chưa đăng nhập -->
+      <a *ngIf="!isLoggedIn()" routerLink="/login" class="nav-link">Đăng nhập</a>
+      <!-- Hiển thị nút đăng xuất nếu đã đăng nhập -->
+      <a *ngIf="isLoggedIn()" (click)="infomation()" class="nav-link">Thông tin cá nhân</a>
+      <a *ngIf="isLoggedIn()" (click)="logout()" class="nav-link">Đăng xuất</a>
+    </nav>
+    <div class="search-bar">
+      <input type="text" [(ngModel)]="searchKeyword" placeholder="Tìm kiếm sách..." class="search-input" />
+      <button (click)="searchBooks()" class="search-button">Tìm kiếm</button>
+    </div>
+  </header>
+
+  <!-- Banner Section -->
+  <section class="banner">
+    <img
+      src="https://png.pngtree.com/thumb_back/fw800/background/20240913/pngtree-stack-of-books-in-a-library-with-wooden-shelves-and-table-image_16178964.jpg"
+      alt="Banner"
+      class="banner-image"
+    />
+  </section>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <aside class="sidebar">
+      <h3 class="sidebar-title">DANH MỤC</h3>
+      <ul class="category-list">
+        <li
+          *ngFor="let category of categories"
+          (click)="onCategorySelect(category)"
+          class="category-item"
+        >
+          {{ category.genreName }}
+        </li>
+      </ul>
+    </aside>
+
+    <section class="products">
+      <h2 class="book-list-title">DANH SÁCH SÁCH</h2>
+      <div *ngIf="books.length > 0; else noBooks" class="book-list">
+        <div class="book-card" *ngFor="let book of books">
+          <a [routerLink]="['/book', book.id]" class="book-link">
+            <img [src]="book.image" alt="{{ book.title }}" class="book-image" />
+            <div class="book-info">
+              <h3>{{ book.title }}</h3>
+              <p><strong>Tác giả:</strong> {{ book.author }}</p>
+              <p><strong>Ngày xuất bản:</strong> {{ book.publishedDate | date: 'dd/MM/yyyy' }}</p>
+              <p><strong>Số lượng:</strong> {{ book?.availableCopies }}</p>
+              <p><strong>Giá:</strong> {{ book?.price | number: '1.0-0' }} VND</p>
+              <button [disabled]="!book.isAvailable" class="availability-button">
+                {{ book.isAvailable===0 ? 'Hết sách' : 'Còn sách' }}
+              </button>
+            </div>
+          </a>
+        </div>
+      </div>
+      <ng-template #noBooks>
+        <p>Không có sách để hiển thị.</p>
+      </ng-template>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-column">
+      <h5>LOGO</h5>
+      <img
+        src="https://img.freepik.com/premium-vector/tc-ct-letter-logo-icon-design_106546-3365.jpg"
+        class="footer-logo"
+      />
+    </div>
+    <div class="footer-column">
+      <h5>VỀ SHOP</h5>
+      <p>Tên thư viện: THƯ VIỆN TP BÌNH ĐỊNH</p>
+      <p>Giới thiệu về thư viện.</p>
+    </div>
+    <div class="footer-column">
+      <h5>TRỢ GIÚP KHÁCH HÀNG</h5>
+      <p>Hotline: 0123456789</p>
+      <p>facebook.com/ThuvientpBinhDinh</p>
+      <p>Email: emailgmail.com</p>
+    </div>
+  </footer>
+</div>

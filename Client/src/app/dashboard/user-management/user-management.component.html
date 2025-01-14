@@ -1,0 +1,38 @@
+<!-- Spinner -->
+<div *ngIf="isLoading" class="spinner-container">
+  <div class="spinner"></div>
+  <div class="loading-text">Đang tải...</div>
+</div>
+
+<!-- User List -->
+<div *ngIf="!isLoading" class="user-list-container">
+  <h2>Danh sách người dùng</h2>
+  <table class="user-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Email</th>
+        <th>Họ và tên</th>
+        <th>Địa chỉ</th>
+        <th>Vai trò</th>
+        <th>Hành động</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.id }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.fullName }}</td>
+        <td>{{ user.address || 'Không có địa chỉ' }}</td>
+        <td>
+          <select [(ngModel)]="user.roleId" (ngModelChange)="updateUserRole(user.id, user.roleId)">
+            <option *ngFor="let role of roles" [value]="role.id">{{ role.roleName }}</option>
+          </select>
+        </td>
+        <td>
+          <button class="delete-btn" (click)="deleteUser(user.id)">Xóa</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

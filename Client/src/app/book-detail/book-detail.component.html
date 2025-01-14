@@ -1,0 +1,65 @@
+<!-- book-page.component.html -->
+<div class="book-page">
+  <!-- Header -->
+  <header class="header">
+    <!-- Logo -->
+    <a href="/" class="logo">THƯ VIỆN</a>
+
+    <!-- Navigation -->
+    <nav class="nav">
+      <a href="/" class="nav-link">Trang chủ</a>
+      <a *ngIf="!isLoggedIn()" href="/login" class="nav-link">Đăng nhập</a>
+      <a *ngIf="isLoggedIn()" (click)="infomation()" class="nav-link">Thông tin cá nhân</a>
+      <a *ngIf="isLoggedIn()" (click)="logout()" class="nav-link">Đăng xuất</a>
+    </nav>
+
+
+  </header>
+
+
+  <!-- Book Detail -->
+  <div class="book-detail">
+    <h1>{{ book?.title }}</h1>
+    <div class="book-content">
+      <img [src]="book?.image" [alt]="book?.title" class="book-image" />
+      <div class="book-info">
+        <p><strong>Tác giả:</strong> {{ book?.author }}</p>
+        <p><strong>Ngày xuất bản:</strong> {{ book?.publishedDate | date: 'dd/MM/yyyy' }}</p>
+        <p><strong>Giá:</strong> {{ book?.price | number:'1.0-0' }} VND</p>
+        <p><strong>Số lượng:</strong> {{ book?.availableCopies }}</p>
+        <p><strong>Thể loại:</strong> {{ book?.genre?.genreName }}</p>
+        <p><strong>Mô tả:</strong> Sách là kho tàng tri thức vô tận...</p>
+        <button
+          class="btn btn-primary"
+          [disabled]="book?.availableCopies === 0"
+          (click)="checkBorrowLimitAndBorrow()"
+        >
+          Mượn sách
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-column">
+      <h5>LOGO</h5>
+
+    </div>
+    <div class="footer-column">
+      <h5>VỀ SHOP</h5>
+      <p>
+        <a href="#">Tên thư viện: THƯ VIỆN TP BÌNH ĐỊNH</a>
+      </p>
+      <p>
+        <a href="#">Giới thiệu:</a>
+      </p>
+    </div>
+    <div class="footer-column">
+      <h5>TRỢ GIÚP KHÁCH HÀNG</h5>
+      <p>Hotline: 0123456789</p>
+      <p>facebook.com/ThuvientpBinhDinh</p>
+      <p>Email: emailgmail.com</p>
+    </div>
+  </footer>
+</div>

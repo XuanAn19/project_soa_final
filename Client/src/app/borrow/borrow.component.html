@@ -1,0 +1,43 @@
+<div class="container">
+  <h2>Danh sách sách đã mượn</h2>
+
+  <!-- Hiển thị loading khi đang tải dữ liệu -->
+  <div *ngIf="isLoading" class="loading-container">
+    <div class="loading-spinner"></div>
+    <div class="loading-text">Đang tải...</div>
+  </div>
+
+  <!-- Bảng dữ liệu -->
+  <table *ngIf="!isLoading && borrows.length > 0" class="table role-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Tên sách</th>
+        <th>Người mượn</th>
+        <th>Ngày mượn</th>
+        <th>Ngày trả</th>
+        <th>Trạng thái</th>
+        <th>Thao tác</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let borrow of borrows">
+        <td>{{ borrow.id }}</td>
+        <td>{{ borrow.bookName }}</td>
+        <td>{{ borrow.fullName }}</td>
+        <td>{{ borrow.borrowDate | date }}</td>
+        <td>{{ borrow.returnDate | date }}</td>
+        <td>{{ borrow.isTrue ? 'Đã trả' : 'Đang mượn' }}</td>
+        <td>
+          <button *ngIf="!borrow.isTrue" (click)="returnBook(borrow.id)" class="btn btn-success">Trả sách</button>
+          <button (click)="deleteBorrowRecord(borrow.id)" class="btn btn-danger">Xóa</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Hiển thị thông báo nếu không có dữ liệu -->
+  <div *ngIf="!isLoading && borrows.length === 0" class="no-data">
+    Không có dữ liệu mượn sách.
+  </div>
+</div>

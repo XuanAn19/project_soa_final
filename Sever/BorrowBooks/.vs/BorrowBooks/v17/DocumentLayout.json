@@ -1,0 +1,361 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|c:\\users\\dell\\downloads\\kientruchuongdichvu\\sever\\borrowbooks\\borrowbooks\\controllers\\borrowcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|solutionrelative:borrowbooks\\controllers\\borrowcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|c:\\users\\dell\\downloads\\kientruchuongdichvu\\sever\\borrowbooks\\borrowbooks\\middleware\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|solutionrelative:borrowbooks\\middleware\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|c:\\users\\dell\\downloads\\kientruchuongdichvu\\sever\\borrowbooks\\borrowbooks\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|solutionrelative:borrowbooks\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|c:\\users\\dell\\downloads\\kientruchuongdichvu\\sever\\borrowbooks\\borrowbooks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|solutionrelative:borrowbooks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|c:\\users\\dell\\downloads\\kientruchuongdichvu\\sever\\borrowbooks\\borrowbooks\\dtos\\configurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|solutionrelative:borrowbooks\\dtos\\configurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|c:\\users\\dell\\downloads\\kientruchuongdichvu\\sever\\borrowbooks\\borrowbooks\\models\\borrowmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|solutionrelative:borrowbooks\\models\\borrowmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|c:\\users\\dell\\downloads\\kientruchuongdichvu\\sever\\borrowbooks\\borrowbooks\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|solutionrelative:borrowbooks\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|c:\\users\\dell\\downloads\\kientruchuongdichvu\\sever\\borrowbooks\\borrowbooks\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|solutionrelative:borrowbooks\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|c:\\users\\dell\\downloads\\kientruchuongdichvu\\sever\\borrowbooks\\borrowbooks\\models\\borrowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|solutionrelative:borrowbooks\\models\\borrowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|c:\\users\\dell\\downloads\\kientruchuongdichvu\\sever\\borrowbooks\\borrowbooks\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|solutionrelative:borrowbooks\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|c:\\users\\dell\\downloads\\kientruchuongdichvu\\sever\\borrowbooks\\borrowbooks\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|solutionrelative:borrowbooks\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|c:\\users\\dell\\downloads\\kientruchuongdichvu\\sever\\borrowbooks\\borrowbooks\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|solutionrelative:borrowbooks\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|c:\\users\\dell\\downloads\\kientruchuongdichvu\\sever\\borrowbooks\\borrowbooks\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|solutionrelative:borrowbooks\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|c:\\users\\dell\\downloads\\kientruchuongdichvu\\sever\\borrowbooks\\borrowbooks\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|solutionrelative:borrowbooks\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|c:\\users\\dell\\downloads\\kientruchuongdichvu\\sever\\borrowbooks\\borrowbooks\\migrations\\20241226090043_migrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|solutionrelative:borrowbooks\\migrations\\20241226090043_migrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|c:\\users\\dell\\downloads\\kientruchuongdichvu\\sever\\borrowbooks\\borrowbooks\\migrations\\20250113045129_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|solutionrelative:borrowbooks\\migrations\\20250113045129_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|c:\\users\\dell\\downloads\\kientruchuongdichvu\\sever\\borrowbooks\\borrowbooks\\migrations\\20250113085521_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA3F2FD-BD57-49A2-825D-B32C1998B806}|BorrowBooks\\BorrowBooks.csproj|solutionrelative:borrowbooks\\migrations\\20250113085521_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:323948898:0:{81164725-9a96-4ece-a4cb-440d8fd285e5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BorrowControllers.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\Controllers\\BorrowControllers.cs",
+              "RelativeDocumentMoniker": "BorrowBooks\\Controllers\\BorrowControllers.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\Controllers\\BorrowControllers.cs",
+              "RelativeToolTip": "BorrowBooks\\Controllers\\BorrowControllers.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAIwI4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T08:42:19.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BorrowModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\Models\\BorrowModel.cs",
+              "RelativeDocumentMoniker": "BorrowBooks\\Models\\BorrowModel.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\Models\\BorrowModel.cs",
+              "RelativeToolTip": "BorrowBooks\\Models\\BorrowModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T08:24:14.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConfigurationService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\DTOs\\ConfigurationService.cs",
+              "RelativeDocumentMoniker": "BorrowBooks\\DTOs\\ConfigurationService.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\DTOs\\ConfigurationService.cs",
+              "RelativeToolTip": "BorrowBooks\\DTOs\\ConfigurationService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAuwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T09:11:50.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\Program.cs",
+              "RelativeDocumentMoniker": "BorrowBooks\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\Program.cs",
+              "RelativeToolTip": "BorrowBooks\\Program.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAwwEwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T08:58:18.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\DTOs\\BookDTO.cs",
+              "RelativeDocumentMoniker": "BorrowBooks\\DTOs\\BookDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\DTOs\\BookDTO.cs",
+              "RelativeToolTip": "BorrowBooks\\DTOs\\BookDTO.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAwwA8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T08:40:24.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Authentication.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\Middleware\\Authentication.cs",
+              "RelativeDocumentMoniker": "BorrowBooks\\Middleware\\Authentication.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\Middleware\\Authentication.cs",
+              "RelativeToolTip": "BorrowBooks\\Middleware\\Authentication.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA9wBoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T04:52:43.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BorrowDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\Models\\BorrowDbContext.cs",
+              "RelativeDocumentMoniker": "BorrowBooks\\Models\\BorrowDbContext.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\Models\\BorrowDbContext.cs",
+              "RelativeToolTip": "BorrowBooks\\Models\\BorrowDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T08:28:00.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\DTOs\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "BorrowBooks\\DTOs\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\DTOs\\ApiResponse.cs",
+              "RelativeToolTip": "BorrowBooks\\DTOs\\ApiResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T10:13:16.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "BorrowBooks\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "BorrowBooks\\DTOs\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T06:20:38.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250113085521_2.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\Migrations\\20250113085521_2.cs",
+              "RelativeDocumentMoniker": "BorrowBooks\\Migrations\\20250113085521_2.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\Migrations\\20250113085521_2.cs",
+              "RelativeToolTip": "BorrowBooks\\Migrations\\20250113085521_2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T08:55:21.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\appsettings.json",
+              "RelativeDocumentMoniker": "BorrowBooks\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\appsettings.json",
+              "RelativeToolTip": "BorrowBooks\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-26T08:22:08.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250113045129_1.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\Migrations\\20250113045129_1.cs",
+              "RelativeDocumentMoniker": "BorrowBooks\\Migrations\\20250113045129_1.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\Migrations\\20250113045129_1.cs",
+              "RelativeToolTip": "BorrowBooks\\Migrations\\20250113045129_1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T04:51:29.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "BorrowBooks\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "BorrowBooks\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T08:56:58.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "BorrowBooks\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\WeatherForecast.cs",
+              "RelativeToolTip": "BorrowBooks\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T09:54:58.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\libman.json",
+              "RelativeDocumentMoniker": "BorrowBooks\\libman.json",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\libman.json",
+              "RelativeToolTip": "BorrowBooks\\libman.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-26T10:24:20.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "BorrowBooks\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\appsettings.Development.json",
+              "RelativeToolTip": "BorrowBooks\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-26T08:59:57.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20241226090043_Migrations.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\Migrations\\20241226090043_Migrations.cs",
+              "RelativeDocumentMoniker": "BorrowBooks\\Migrations\\20241226090043_Migrations.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\KienTrucHuongDichVu\\Sever\\BorrowBooks\\BorrowBooks\\Migrations\\20241226090043_Migrations.cs",
+              "RelativeToolTip": "BorrowBooks\\Migrations\\20241226090043_Migrations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T09:00:43.615Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

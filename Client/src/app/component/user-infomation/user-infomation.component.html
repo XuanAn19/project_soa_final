@@ -1,0 +1,99 @@
+<div class="user-info-container">
+  <h2>Thông tin cá nhân</h2>
+
+  <!-- Nút Chỉnh sửa -->
+  <button *ngIf="!isEditing" class="btn-edit" (click)="toggleEditMode()">Chỉnh sửa</button>
+
+  <!-- Form thông tin cá nhân -->
+  <form *ngIf="isEditing; else viewMode" (ngSubmit)="updateUserInfo()">
+    <!-- Họ và tên -->
+    <div class="form-group">
+      <label for="fullName">Họ và tên</label>
+      <input
+        type="text"
+        id="fullName"
+        [(ngModel)]="userInfo.fullName"
+        name="fullName"
+        required
+      />
+    </div>
+
+    <!-- Số điện thoại -->
+    <div class="form-group">
+      <label for="phoneNumber">Số điện thoại</label>
+      <input
+        type="text"
+        id="phoneNumber"
+        [(ngModel)]="userInfo.phoneNumber"
+        name="phoneNumber"
+        required
+      />
+    </div>
+
+    <!-- Địa chỉ -->
+    <div class="form-group">
+      <label for="provice">Tỉnh/Thành phố</label>
+      <input
+        type="text"
+        id="provice"
+        [(ngModel)]="userInfo.address.provice"
+        name="provice"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="district">Quận/Huyện</label>
+      <input
+        type="text"
+        id="district"
+        [(ngModel)]="userInfo.address.district"
+        name="district"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="ward">Phường/Xã</label>
+      <input
+        type="text"
+        id="ward"
+        [(ngModel)]="userInfo.address.ward"
+        name="ward"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="detail">Địa chỉ chi tiết</label>
+      <input
+        type="text"
+        id="detail"
+        [(ngModel)]="userInfo.address.detail"
+        name="detail"
+        required
+      />
+    </div>
+
+    <!-- Nút cập nhật -->
+    <div class="form-group">
+      <button type="submit" class="btn-update">Cập nhật</button>
+      <button type="button" class="btn-cancel" (click)="toggleEditMode()">Hủy</button>
+    </div>
+  </form>
+
+  <!-- Chế độ xem thông tin -->
+  <ng-template #viewMode>
+    <div class="view-info">
+      <p><strong>Họ và tên:</strong> {{ userInfo.fullName }}</p>
+      <p><strong>Số điện thoại:</strong> {{ userInfo.phoneNumber }}</p>
+      <p><strong>Địa chỉ:</strong></p>
+      <ul>
+        <li><strong>Tỉnh/Thành phố:</strong> {{ userInfo.address.provice }}</li>
+        <li><strong>Quận/Huyện:</strong> {{ userInfo.address.district }}</li>
+        <li><strong>Phường/Xã:</strong> {{ userInfo.address.ward }}</li>
+        <li><strong>Địa chỉ chi tiết:</strong> {{ userInfo.address.detail }}</li>
+      </ul>
+    </div>
+  </ng-template>
+</div>

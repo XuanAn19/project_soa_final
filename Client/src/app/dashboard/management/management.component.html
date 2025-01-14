@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Management Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@angular/material@15.0.0/prebuilt-themes/indigo-pink.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      display: flex;
+      height: 100vh;
+      background-color: #f4f5f7;
+    }
+
+    .sidebar {
+      width: 250px;
+      background: #2c3e50;
+      color: #ecf0f1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .sidebar .logo {
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      background: #34495e;
+      box-shadow: inset 0 -2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .sidebar .menu {
+      flex: 1;
+      padding: 1rem;
+    }
+
+    .sidebar .menu a {
+      display: flex;
+      align-items: center;
+      padding: 0.8rem 1rem;
+      margin-bottom: 0.5rem;
+      color: #ecf0f1;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .sidebar .menu a:hover {
+      background: #34495e;
+    }
+
+    .sidebar .menu a i {
+      margin-right: 1rem;
+    }
+
+    .sidebar .logout {
+      text-align: center;
+      padding: 1rem;
+      background: #e74c3c;
+      cursor: pointer;
+      color: white;
+      font-weight: bold;
+      border: none;
+      transition: background 0.3s;
+    }
+
+    .sidebar .logout:hover {
+      background: #c0392b;
+    }
+
+    .content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      overflow-y: auto;
+    }
+
+    .header {
+      background: #ecf0f1;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .header h1 {
+      font-size: 1.5rem;
+    }
+
+    .dashboard {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 5px;
+      padding: 1rem;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    .loading-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s, opacity 0.3s;
+    }
+
+    .loading-overlay.active {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo">Admin Panel</div>
+    <div class="menu">
+      <a routerLink="books"><i class="fas fa-book"></i>Quản lý sách</a>
+      <a routerLink="users"><i class="fas fa-user"></i>Quản lý tài khoản</a>
+      <a routerLink="roles"><i class="fas fa-user-shield"></i>Quản lý quyền</a>
+      <a routerLink="borrow"><i class="fas fa-handshake"></i>Quản lý mượn sách</a>
+      <a routerLink="profiles"><i class="fas fa-user-circle"></i>Thông tin cá nhân</a>
+    </div>
+    <button class="logout" (click)="onLogout()">Đăng xuất</button>
+  </div>
+  <div class="content">
+    <app-loading-spinner></app-loading-spinner>
+    <router-outlet></router-outlet>
+
+  </div>
+  <div class="loading-overlay" id="loading">
+    <mat-spinner></mat-spinner>
+
+  </div>
+</body>
+
+<script>
+  function toggleLoading(show) {
+    const loadingOverlay = document.getElementById('loading');
+    if (show) {
+      loadingOverlay.classList.add('active');
+    } else {
+      loadingOverlay.classList.remove('active');
+    }
+  }
+</script>
+
+</html>
