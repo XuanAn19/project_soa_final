@@ -1,0 +1,4 @@
+-vs code :
+- vs : 2022
+- .NET 8
+- Angular : 
